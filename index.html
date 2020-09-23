@@ -1,0 +1,164 @@
+<!-- This is Chat Application for clients which have only UI design and its Non-Responsive website only .There are always pros and cons on website
+1. menu chats is hover over User and click on it so user chat is selected.
+2. still working on mobile and tablet size.
+3. Needed Point-to-Point Communication.
+4. script content will work in chrome but not in mozilla-->
+<!-- Yesh Jadav  UI design -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1 , maximum-scale=1 , user-scaleable=0">
+	<title>Friends Chat</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="scss/styles.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="sidebar">
+		<a href="index.html"><img src="images/menu.jpg" alt="Menu Bar" class="menu"></a>
+		<h1 class="title">
+			Youtobe Friends
+		</h1>
+		<div class="info">
+			<div class="client">
+				<a href="#comment"><p class="input real">Linus</p></a>
+				<p class="description real"> You'r Welcome u need to do some favour for that by helping me  :] </p>
+			<hr>
+				<a href="index.html"><p class="input">MrWhose</p></a>
+				<p class="description"> Nice Editing on today's video</p>
+			<hr>
+				<a href="index.html"><p class="input">iJustine</p></a>
+				<p class="description"> <i>This message is deleted</i> </p>
+			<hr>
+				<a href="index.html"><p class="input">AvgConsumer</p></a>
+				<p class="description"> Are you free ?</p>
+			<hr>	
+				<a href="index.html"><p class="input">Unbox Thearpy</p></a>
+				<p class="description"> I have reached near Austin's house</p>
+			<hr>
+			</div>
+		</div>
+	</div>
+
+	<div id="chat">
+		<div class="bubble attachment">
+			<img src="images/view.png" class="icon">
+			<div class="preview">
+				<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiRo7OKgf_rAhXszDgGHXV5Ad8QFjAAegQIBBAB&url=https%3A%2F%2Fopen.spotify.com%2Fplaylist%2F0ZXVX604hmghJgqWCMsqcU&usg=AOvVaw3hoDDc7O57s-3lbrJd2U1a"><img src="images/attach.jpg"></a>
+			</div>
+			<div class="content">
+				<h2 class="title">
+					Playlist on Spotify
+				</h2>
+				<p class="description">
+					Check my playlist on spotify you would fill better or you will love listening every time. There are many more songs would be joining there stay stuned.
+				</p>
+				<div class="buttons_wrapper">
+					<a class="button button_blue"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiRo7OKgf_rAhXszDgGHXV5Ad8QFjAAegQIBBAB&url=https%3A%2F%2Fopen.spotify.com%2Fplaylist%2F0ZXVX604hmghJgqWCMsqcU&usg=AOvVaw3hoDDc7O57s-3lbrJd2U1a">View</a>
+					<a class="button button_download"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiRo7OKgf_rAhXszDgGHXV5Ad8QFjAAegQIBBAB&url=https%3A%2F%2Fopen.spotify.com%2Fplaylist%2F0ZXVX604hmghJgqWCMsqcU&usg=AOvVaw3hoDDc7O57s-3lbrJd2U1a">Download</a>
+				</div>
+			</div>
+		</div>
+		<div class="bubble">
+			<div class="content">
+				<div class="avatar">
+					<img src="images/avatar.jpg" alt="Avatar">
+				</div>
+				<p class="copy">
+					Hey Seb, you required above link to see my private or upcoming intro music 
+				</p>
+			</div>
+			<p class="time">11:04</p>
+		</div>
+		<div class="bubble client">
+			<div class="content">
+				<div class="avatar">
+					<img src="images/client_avatar.png" alt="Client-Avatar">
+				</div>
+				<p class="copy">
+					They are better than what i actually thought of it. Did you do this stuff now-a-days?
+				</p>
+			</div>
+			<p class="time">11:04</p>
+		</div>
+		<div class="bubble">
+			<div class="content">
+				<div class="avatar">
+					<img src="images/avatar.jpg" alt="Avatar">
+				</div>
+				<p class="copy">
+					No.....I actually paid for the artists you checkhim out on spotify.
+				</p>
+			</div>
+			<p class="time">11:30</p>
+		</div>
+		<div class="bubble attachment">
+			<img src="images/view.png" class="icon">
+			<div class="preview">
+				<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiin_HXgf_rAhXoyDgGHXFyB0oQFjAAegQIBBAB&url=https%3A%2F%2Fopen.spotify.com%2Fartist%2F6mA4csYsYvf4Mq02PleZEV&usg=AOvVaw0Xzl0hHbHcjIJXMxL1ZAvn"><img src="images/attach2.jpg"></a>
+			</div>
+			<div class="content">
+				<h2 class="title">
+					Playlist on Spotify
+				</h2>
+				<p class="description">
+					Check my playlist on spotify you would fill better or you will love listening every time. There are many more songs would be joining there stay stuned.
+				</p>
+				<div class="buttons_wrapper">
+					<a class="button button_blue"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiin_HXgf_rAhXoyDgGHXFyB0oQFjAAegQIBBAB&url=https%3A%2F%2Fopen.spotify.com%2Fartist%2F6mA4csYsYvf4Mq02PleZEV&usg=AOvVaw0Xzl0hHbHcjIJXMxL1ZAvn">View</a>
+					<a class="button button_download"href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiin_HXgf_rAhXoyDgGHXFyB0oQFjAAegQIBBAB&url=https%3A%2F%2Fopen.spotify.com%2Fartist%2F6mA4csYsYvf4Mq02PleZEV&usg=AOvVaw0Xzl0hHbHcjIJXMxL1ZAvn">Download</a>
+				</div>
+			</div>
+		</div>
+		<div class="bubble">
+			<div class="content">
+				<div class="avatar">
+					<img src="images/avatar.jpg" alt="Avatar">
+				</div>
+				<p class="copy">
+					You directly contact him via social media or should i provide his phone number
+				</p>
+			</div>
+			<p class="time">13:09</p>
+		</div>
+		<div class="bubble client">
+			<div class="content">
+				<div class="avatar">
+					<img src="images/client_avatar.png" alt="Client-Avatar">
+				</div>
+				<p class="copy">
+					NO.. I will do that work :) Thanks '='
+				</p>
+			</div>
+			<p class="time">14:10</p>
+		</div>
+		<div class="bubble">
+			<div class="content">
+				<div class="avatar">
+					<img src="images/avatar.jpg" alt="Avatar">
+				</div>
+				<p class="copy">
+					You'r Welcome u need to do some favour for that by helping me  :] 
+				</p>
+			</div>
+			<p class="time">14:11</p>
+		</div>
+		<div id="input">
+			<div class="avatar">
+				<img src="images/avatar.jpg" alt="Avatar">
+			</div>
+			<textarea name="comment" id="comment" placeholder="say something"></textarea>
+		</div>
+	</div>
+<script>
+
+	$(document).ready(function(){
+		$('#chat').scrollTop($('#chat')[0].scrollHeight);
+	});
+
+</script>
+</body>
+</html>
+<!-- Yesh Jadav  UI design -->

@@ -1,0 +1,236 @@
+// <!-- Yesh Jadav  UI design --> 
+// For this file to be run this on cmd on windows for working with 
+// ruby install sass gem
+// // sass --watch styles.scss:styles.css
+// No need to make css folder
+// ******************Variables******************
+
+$main : 		#393f42;
+$secondary: 	#cedce4;
+$bg:			#eedd82;
+$highlight: 	#50bbf2;
+$copy: 			#727678;
+$white: 		#FFFFFF;
+
+// ********************Main*******************
+
+*{
+	box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+}
+
+html,body{
+	background: $bg;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+// *******************Buttons styling***********
+
+.button{
+	padding: 1em 1.5em;
+	border-radius: .35em;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: .9em;
+	transition:background .4s ease-in-out;
+}
+.button_blue{
+	background: $highlight;
+	color: $white;
+	&:hover{
+		background: darken($highlight,20%);
+	}
+}
+.button_download{
+	background: $secondary;
+	color: $white;
+	&:hover{
+		background: darken($secondary, 20%);
+	}
+}
+
+// ******************Sidebar*****************
+
+.sidebar{
+	position: fixed;
+	left: 100px;
+	top: 100px;
+	background: $white;
+	width: 300px;	
+	text-align: center;
+	opacity: .7;
+	.title{
+		font-size: 1.5em;
+		font-weight: 400;
+		line-height: 1.35;
+		color: $main;
+		margin: 1em 0 1em 0;
+	}
+	.info{
+		a{
+			text-decoration: none;
+		}
+		.input{
+			font-size: 1.5em;
+			color: $copy;
+			margin: .25em auto;
+			transition: all .3s ease-in-out;
+			&:hover{
+				color: $white;
+				background: blue;
+			}
+		}
+		.description{
+			font-size: 1em;
+			color: $main;
+			font-weight: 700;
+			margin: 0;
+		}
+		hr{
+			width: 2em;
+			height: 0;
+			border-top: 2px solid $secondary;
+			margin:1em 0 0 8.5em;
+		}
+
+		.real{
+			color: $white;
+			background: blue;
+		}
+	}
+}
+
+// *******************Chat-Message**************
+
+#chat{
+	width: 1300px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 150px 150px 500px;
+	overflow: scroll;
+	&::-webkit-scrollbars{
+		display:none;
+	}
+	.avatar{
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		overflow: hidden;
+		float: left;
+		margin: 2em;
+		img{
+			height: 100%;
+		}
+	}
+	.bubble{
+		margin-bottom: 3em;
+		.content{
+			background: $white;
+			box-shadow: 0px 9px 30px 0px rgba(44,55,79,.5);
+			border-radius: 25px 25px 25px 2px;
+			display: inline-block;
+			&::before,&::after{
+				content: " ";
+				display: table;
+			}
+			&::after{
+				clear: both;
+			}
+			.copy{
+				font-size: 1em;
+				line-height: 1.75;
+				color: $copy;
+				padding: 1.5em;
+				margin: 0;
+			}
+		}
+	}
+	.time{
+		font-weight: 700;
+		font-size: 1em;
+		clear: both;
+		color: $main;
+	}
+	.client{
+		float: right;
+		.content{
+			background: #fafbff;
+			border-radius: 25px 25px 2px 25px;
+			text-align: right;
+			float: right;
+			.avatar{
+				float: right;
+			}
+		}
+		.time{
+			text-align: right;
+		}
+	}
+	.attachment{
+		width: 100%;
+		position: relative;
+		margin: 5em 0 2em 0;
+		clear: both;
+		.preview{
+			width: 15em;
+			border-radius: .5em;
+			overflow: hidden;
+			box-shadow: 0px 9px 30px 0px rgba(44,55,79,.5);
+			position: absolute;
+			left: 2em;
+			bottom: 2em;
+			img{
+				width: 100%;
+			}
+		}
+		.content{
+			width: 100%;
+			min-height: 22em;
+			padding: 2em 5em 2em 20em;
+		}
+		.title{
+			font-size: 1.55em;
+			color: $main;
+			font-weight: 400;
+		}
+		.description{
+			font-size: 1.1em;
+			color: $copy;
+			line-height: 1.65;
+		}
+		.buttons_wrapper{
+			margin-top: 3em;
+			.button{
+				margin-right: 1em;
+			}
+		}
+	}
+	.icon{
+		position: absolute;
+		right: 2em;
+		top: 2em;
+		opacity: .3;
+	}
+	#input{
+		width: 100%;
+		position: relative;
+		.avatar{
+			position: absolute;
+			left: 2em;
+			top: 2em;
+			margin: 0;
+		}
+		textarea{
+			background: $white;
+			box-shadow: 0px 9px 30px 0px rgba(44,55,79,.5);
+			border-radius: 25px 25px 25px 2px;
+			border: none;
+			width: 100%;
+			height: 10em;
+			font-size: 1.1em;
+			padding: 2.25em 2em 2em 5.5em;
+		}
+	}
+}
+
+//	<!-- Yesh Jadav  UI design --> 
