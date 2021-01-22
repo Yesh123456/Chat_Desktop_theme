@@ -1,3 +1,20 @@
 # friends-chat
-This is preview of the above page with css and html only.You can checkout page
+
+******************
+INSTALLATION AND PREREQUITS
+******************
+
+: INSTALL SCSS IN YOUR SYSTEM.
+
+: DOWNLOAD MY FILE
+
+: THIS IS TEMPLATE VIEW OF THE SITE.
+
+: THIS ARE DESIGN FREE BUT STAR THIS IF YOUR USING.
+
+: THIS IS PREVIEW OF CHATS SITE.
+
+: CHECKOUT
+
+
 https://yesh123456.github.io/friends-chat/
