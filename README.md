@@ -1,7 +1,7 @@
 
 # FriendsChat
 
-This project is about creating a Interior Household appliances with some hovering effects theme.
+This project is about creating a Chat theme.
 ## Installation
 
 Install my-project as zip or clone.
