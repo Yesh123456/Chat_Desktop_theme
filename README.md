@@ -1,5 +1,5 @@
 
-#Friends Chat
+# FriendsChat
 
 This project is about creating a Interior Household appliances with some hovering effects theme.
 ## Installation
