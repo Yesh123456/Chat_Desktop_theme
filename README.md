@@ -7,7 +7,7 @@ This project is about creating a Chat theme.
 Install my-project as zip or clone.
 
 ```bash
-    git clone https://github.com/Yesh123456/todo.git
+    git clone https://github.com/Yesh123456/friends-chat.git
 ```
 
 Install Sass.(For Ubuntu)
